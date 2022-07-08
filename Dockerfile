@@ -1,9 +1,10 @@
-FROM v2fly/v2fly-core:latest
+FROM alpine:latest
 
 RUN apk add caddy
 RUN apk add gettext
 RUN apk add curl
 RUN apk add jq
+RUN apk add v2ray
 
 COPY html /root/html/
 

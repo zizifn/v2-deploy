@@ -1,0 +1,7 @@
+services:
+- type: web
+  name: zizifn
+  env: docker
+  envVars: # https://docs.ackee.electerious.com/#/docs/Options
+  - key: PORT
+    value: 8888
