@@ -13,5 +13,6 @@ else
 fi
 
 # Run V2Ray
-v2ray -config /root/config.json & caddy run --config /root/Caddyfile
+v2ray run -c /root/config.json & caddy run --config /root/Caddyfile
+# v2ray -config /root/config.json & caddy run --config /root/Caddyfile
 
